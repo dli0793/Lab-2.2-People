@@ -29,7 +29,8 @@ public class Classroom
 		return averageSum/students.length;
 	}
 
-	public String toString() {
+	public String toString() 
+	{
 		return "Classroom [students=" + Arrays.toString(students) + ", teacher=" + teacher + ", getSubject()="
 				+ getSubject() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
 				+ super.toString() + "]";
