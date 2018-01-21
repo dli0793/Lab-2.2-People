@@ -7,7 +7,7 @@ public class Teacher extends Person
 	public Teacher(String firstName, String familyName, String email, String gender, String subject, String title) 
 	{
 		super(firstName, familyName, email, gender);
-		this.Subject = subject;
+		Teacher.Subject = subject;
 		this.Title = title;
 	}
 
